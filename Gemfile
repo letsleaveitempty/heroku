@@ -7,7 +7,12 @@ gem 'rails', '3.2.1'
 
 # gem 'sqlite3'
 
-gem 'pg'
+group :development do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+end
 
 gem 'carrierwave'
 
