@@ -1,1 +1,3 @@
-1st line
+get '/hi' do
+  "Hello World!"
+end
